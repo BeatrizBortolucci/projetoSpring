@@ -1,0 +1,9 @@
+PUT http://localhost:8080/api/transacao/atualizar/3
+Content-Type: application/json
+
+{
+  "descricao" : "Transferencia para amiga",
+  "valor" : 39,
+  "dataTransacao": "2021-23-06T10:30:00.000Z",
+  "tipo_transacao": "Crédito"
+}

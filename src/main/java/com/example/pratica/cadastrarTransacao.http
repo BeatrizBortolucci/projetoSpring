@@ -1,0 +1,9 @@
+POST  http://localhost:8080/api/transacao/cadastrar
+Content-Type: application/json
+
+{
+  "descricao" : "Transferência para amiga",
+  "valor" : 40,
+  "dataTransacao": "2021-23-06T10:30:00.000Z",
+  "tipoTransacao": "Débito"
+}
